@@ -3,7 +3,7 @@ name: Deploy VitePress to GitHub Pages
 on:
   push:
     branches:
-      - main  # 监听 main 分支的提交
+      - main  # 监听 main 分支提交
 
 jobs:
   deploy:
@@ -20,11 +20,14 @@ jobs:
       - name: 安装依赖
         run: npm install
 
-      - name: 构建静态文件
-        run: npm run docs:build
+      - name: 构建 VitePress 站点
+        run: npx vitepress build
+
+      - name: 列出构建目录 (调试)
+        run: ls -l .vitepress/dist
 
       - name: 部署到 GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # 部署到 gh-pages 分支
-          folder: docs/.vitepress/dist
+          folder: .vitepress/dist  # 确保使用正确的构建目录
