@@ -29,5 +29,6 @@ jobs:
       - name: 部署到 GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages  # 部署到 gh-pages 分支
           folder: .vitepress/dist  # 确保使用正确的构建目录
