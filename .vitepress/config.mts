@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [['link', { rel: 'icon', href: '/Iron Man.svg' }]],
-  base: 'https://github.com/DraskyChen/MyBlog.git',
+  base: 'https://github.com/DraskyChen/MyBlog.git/',
   title: "Drasky's Blog",
   description: "A VitePress Site",
   lang: 'zh-CN',
