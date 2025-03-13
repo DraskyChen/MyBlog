@@ -3,7 +3,7 @@ node_modules/
 
 # 构建输出目录（VitePress 生成的静态站点）
 docs/.vitepress/dist/
-
+.vitepress/dist/
 # VitePress 缓存文件
 docs/.vitepress/cache/
 .vitepress/cache/
