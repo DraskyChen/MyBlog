@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/Iron Man.svg' }]],
+  head: [['link', { rel: 'icon', href: '/IronMan.svg' }]],
   base: '/MyBlog/',
   title: "Drasky's Blog",
   description: "A VitePress Site",
@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/Iron Man.svg',
+    logo: '/IronMan.svg',
     search: {
       provider: 'local'
     },
