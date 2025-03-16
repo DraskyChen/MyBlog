@@ -119,6 +119,13 @@ const vitePressConfigWithSidebar = [
   },
   {
     documentRootPath: '/',
+    scanStartPath: 'frontend/TypeScript',
+    basePath: '/frontend/TypeScript/',
+    resolvePath: '/frontend/TypeScript/',
+    useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
     scanStartPath: 'frontend/Vue',
     basePath: '/frontend/Vue/',
     resolvePath: '/frontend/Vue/',
