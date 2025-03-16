@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 
 const vitePressConfig = {
-  head: [['link', { rel: 'icon', href: '/IronMan.svg' }]],
+  // head: [['link', { rel: 'icon', href: '/IronMan.svg' }]],
   base: '/MyBlog/',
   title: "Drasky's Blog",
   description: "A VitePress Site",
