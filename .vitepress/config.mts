@@ -1,12 +1,21 @@
 import { defineConfig } from 'vitepress'
+import { withSidebar } from 'vitepress-sidebar'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/IronMan.svg' }]],
+const vitePressConfig = {
+  head: [['link', { rel: 'icon', href: './IronMan.svg' }]],
   base: '/MyBlog/',
   title: "Drasky's Blog",
   description: "A VitePress Site",
-  lang: 'zh-CN',
+  locales: {
+    'root': {
+      label: '简体中文',
+      lang: 'zh-CN',
+    },
+    'en-US': {
+      label: 'English',
+      lang: 'en-US',
+    }
+  },
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -53,8 +62,8 @@ export default defineConfig({
       ]},
       { text: '人工智能', items: [
         {text: '基础知识', items: [
-          {text: '机器学习', link: '/ai/machine-learning/index'},
-          {text: '深度学习', link: '/ai/deep-learning/index'},
+          {text: '机器学习', link: '/ai/MachineLearning/index'},
+          {text: '深度学习', link: '/ai/DeepLearning/index'},
         ]},
         {text: '框架技术', items: [
           {text: 'TensorFlow', link: '/ai/TensorFlow/index'},
@@ -67,49 +76,14 @@ export default defineConfig({
         {text: 'LLM', link: '/ai/LLM/index'},
         {text: 'Awesome', link: '/ai/awesome'},
       ]},
-      { text: 'DevTools', link: '/devtools/index' },
+      { text: 'DevTools', items: [
+        {text: 'VSCode', link: '/devtools/VSCode/index'},
+        {text: 'Cursor', link: '/devtools/Cursor/index'},
+      ]},
       { text: 'Examples', link: '/Examples/markdown-examples' }
     ],
     //侧边栏
-    sidebar: {
-      '/frontend/HTML':[
-        {
-          text: '学习HTML',
-          items: [
-          { text: '快速入门', link: '/frontend/HTML/index' },
-          { text: '标签', link: '/frontend/HTML/tags' },
-          { text: '布局', link: '/frontend/HTML/layout' },]
-        }
-      ],
-      '/frontend/CSS':[
-        {
-          text: '学习CSS',
-          items: [
-          { text: '快速入门', link: '/frontend/CSS/index' },
-          { text: '基础语法', link: '/frontend/CSS/basic-syntax' },
-          { text: '伪类&伪元素', link: '/frontend/CSS/pseudo-class-pseudo-element' },]
-        },
-      ],
-      '/frontend/JavaScript':[
-        {
-          text: '学习JavaScript',
-          items: [
-          { text: '快速入门', link: '/frontend/JavaScript/index' },
-          { text: '基础语法', link: '/frontend/JavaScript/basic-syntax' },]
-        },
-      ],
-      '/backend/':[{
-      }],
-      '/ai/':[{
-      }],
-     '/Examples/':[{
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/Examples/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/Examples/api-examples' }
-        ]
-      }]
-    },
+    sidebar: {},
     //社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
@@ -120,4 +94,57 @@ export default defineConfig({
       copyright: 'Copyright © 2025-present Drasky Chen'
     }
   }
-})
+};
+const vitePressConfigWithSidebar = [
+  {
+    documentRootPath: '/',
+    scanStartPath: 'frontend/HTML',
+    basePath: '/frontend/HTML/',
+    resolvePath: '/frontend/HTML/',
+    useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'frontend/CSS',
+    basePath: '/frontend/CSS/',
+    resolvePath: '/frontend/CSS/',
+    useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'frontend/JavaScript',
+    basePath: '/frontend/JavaScript/',
+    resolvePath: '/frontend/JavaScript/',
+    useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'frontend/TypeScript',
+    basePath: '/frontend/TypeScript/',
+    resolvePath: '/frontend/TypeScript/',
+    useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'frontend/Vue',
+    basePath: '/frontend/Vue/',
+    resolvePath: '/frontend/Vue/',
+    useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'ai/MachineLearning',
+    basePath: '/ai/MachineLearning/',
+    resolvePath: '/ai/MachineLearning/',
+    useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'Examples',
+    basePath: '/Examples/',
+    resolvePath: '/Examples/',
+    useTitleFromFileHeading: true
+  }
+]
+// https://vitepress.dev/reference/site-config
+export default defineConfig(withSidebar(vitePressConfig, vitePressConfigWithSidebar))

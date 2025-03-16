@@ -30,6 +30,9 @@ features:
   - icon: 🧭
     title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 💕
+    title: Feature D
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 <style module>
   :root {
