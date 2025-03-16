@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DEFV-lLj.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ai/index.md","filePath":"ai/index.md","lastUpdated":1742138096000}'),n={name:"ai/index.md"};function r(i,o,s,d,c,p){return a(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};
