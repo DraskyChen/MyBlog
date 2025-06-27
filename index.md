@@ -4,9 +4,9 @@ layout: home
 
 #如果layout是home，hero是配置项
 hero:
-  name: "个人技术博客"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Drasky's Blog"
+  text: "在不断构建中，构建更好的自己。"
+  tagline: Code is cheap, show me the chat.
   image:
     src: /iron-man_640_ok.png
     alt: VitePress

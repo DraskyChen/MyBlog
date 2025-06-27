@@ -60,7 +60,7 @@ const vitePressConfig = {
         ]},
         {text: 'Awesome', link: '/backend/awesome'},
       ]},
-      { text: '人工智能', items: [
+      { text: 'AI', items: [
         {text: '基础知识', items: [
           {text: '机器学习', link: '/ai/MachineLearning/index'},
           {text: '深度学习', link: '/ai/DeepLearning/index'},
@@ -80,7 +80,7 @@ const vitePressConfig = {
         {text: 'VSCode', link: '/devtools/VSCode/index'},
         {text: 'Cursor', link: '/devtools/Cursor/index'},
       ]},
-      { text: 'Examples', link: '/Examples/markdown-examples' }
+      // { text: 'Examples', link: '/Examples/markdown-examples' }
     ],
     //侧边栏
     sidebar: {},
