@@ -73,12 +73,17 @@ const vitePressConfig = {
           {text: 'NLP', link: '/ai/NLP/index'},
           {text: 'CV', link: '/ai/CV/index'},
         ]},
-        {text: 'LLM', link: '/ai/LLM/index'},
+        {text: 'LLM', items:[
+          {text: 'Agent', link: '/ai/LLM/Agent/index'},
+        ]},
         {text: 'Awesome', link: '/ai/awesome'},
       ]},
-      { text: 'DevTools', items: [
-        {text: 'VSCode', link: '/devtools/VSCode/index'},
-        {text: 'Cursor', link: '/devtools/Cursor/index'},
+      { text: '其他', items: [
+        {text:'devtools', items: [
+          {text: 'Git', link: '/devtools/Git/index'},
+          {text: 'VSCode', link: '/devtools/VSCode/index'},
+          {text: 'Cursor', link: '/devtools/Cursor/index'},
+        ]}
       ]},
       // { text: 'Examples', link: '/Examples/markdown-examples' }
     ],
@@ -86,7 +91,7 @@ const vitePressConfig = {
     sidebar: {},
     //社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/DraskyChen' },
     ],
     //底部
     footer: {
@@ -98,52 +103,66 @@ const vitePressConfig = {
 const vitePressConfigWithSidebar = [
   {
     documentRootPath: '/',
+    scanStartPath: 'backend/Python',
+    basePath: '/backend/Python/',
+    resolvePath: '/backend/Python/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
     scanStartPath: 'frontend/HTML',
     basePath: '/frontend/HTML/',
     resolvePath: '/frontend/HTML/',
-    useTitleFromFileHeading: true
+    // useTitleFromFileHeading: true
   },
   {
     documentRootPath: '/',
     scanStartPath: 'frontend/CSS',
     basePath: '/frontend/CSS/',
     resolvePath: '/frontend/CSS/',
-    useTitleFromFileHeading: true
+    // useTitleFromFileHeading: true
   },
   {
     documentRootPath: '/',
     scanStartPath: 'frontend/JavaScript',
     basePath: '/frontend/JavaScript/',
     resolvePath: '/frontend/JavaScript/',
-    useTitleFromFileHeading: true
+    // useTitleFromFileHeading: true
   },
   {
     documentRootPath: '/',
     scanStartPath: 'frontend/TypeScript',
     basePath: '/frontend/TypeScript/',
     resolvePath: '/frontend/TypeScript/',
-    useTitleFromFileHeading: true
+    // useTitleFromFileHeading: true
   },
   {
     documentRootPath: '/',
     scanStartPath: 'frontend/Vue',
     basePath: '/frontend/Vue/',
     resolvePath: '/frontend/Vue/',
-    useTitleFromFileHeading: true
+    // useTitleFromFileHeading: true
   },
   {
     documentRootPath: '/',
     scanStartPath: 'ai/MachineLearning',
     basePath: '/ai/MachineLearning/',
     resolvePath: '/ai/MachineLearning/',
-    useTitleFromFileHeading: true
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'ai/LLM/Agent',
+    basePath: '/ai/LLM/Agent/',
+    resolvePath: '/ai/LLM/Agent/',
+    // useTitleFromFileHeading: true
   },
   {
     documentRootPath: '/',
     scanStartPath: 'Examples',
     basePath: '/Examples/',
     resolvePath: '/Examples/',
-    useTitleFromFileHeading: true
+    // useTitleFromFileHeading: true
   }
 ]
 // https://vitepress.dev/reference/site-config
