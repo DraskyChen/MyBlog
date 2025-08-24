@@ -1,9 +1,24 @@
-import { link } from 'fs';
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 
 const vitePressConfig = {
-  head: [['link', { rel: 'icon', href: './IronMan.svg' }, '']],
+  head: [[
+    'script',
+    {
+      async: true,
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-5R3J1LLHED'
+    }
+  ],
+  [
+    'script',
+    {},
+    `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-5R3J1LLHE');
+      `
+  ], ['link', { rel: 'icon', href: './IronMan.svg' }, '']],
   base: '/MyBlog/',
   title: "Drasky's Blog",
   description: "A VitePress Site",
@@ -97,7 +112,6 @@ const vitePressConfig = {
     ],
     //底部
     footer: {
-      message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025-present Drasky Chen'
     }
   }

@@ -6,36 +6,28 @@ layout: home
 hero:
   name: "Drasky's Blog"
   text: "在不断构建中，构建更好的自己"
-  tagline: Code is Cheap, show me you chat
+  tagline: Code is cheap, show me you prompt
   image:
     src: /iron-man_640_ok.png
     alt: VitePress
   actions:
     - theme: brand
       text: 现在就开始吧 ->
-      link: /posts/
+      link: /self-intro/
 
 features:
   - icon: 🖥️
-    title: 前端开发
-    details: 深入研究 Vue、React、TypeScript 等现代前端技术，分享实用开发经验与最佳实践。
-    link: /frontend/
-    linkText: 前端专栏
-  - icon: ⚙️
+    title: web开发
+    details: 现代web技术，分享实用开发经验与最佳实践。
+  - icon: 🛠️
     title: 工程化与自动化
     details: 持续集成、自动化部署、脚手架工具开发，提升开发效率与代码质量。
-    link: /engineering/
-    linkText: 工程化实践
-  - icon: 🌐
-    title: Node.js & 全栈
-    details: Node.js 后端开发、API 设计、全栈项目实战，打造完整应用。
-    link: /fullstack/
-    linkText: 全栈探索
+  - icon: 🤖
+    title: AI玩家
+    details: 探索大模型应用开发与场景落地、API 设计、Prompt 工程与结合前后端的智能化功能落地。
   - icon: 📚
     title: 学习与成长
-    details: 记录学习笔记、技术思考与成长感悟，见证每一步进步。
-    link: /notes/
-    linkText: 学习笔记
+    details: 记录学习笔记、读书与知识总结、职业发展建议与技术反思，助力持续进步。
 ---
 
 <style module>
