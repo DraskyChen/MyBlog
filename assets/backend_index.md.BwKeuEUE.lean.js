@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.D207NPw5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"backend/index.md","filePath":"backend/index.md","lastUpdated":1756011999000}'),n={name:"backend/index.md"};function d(c,r,o,s,i,p){return a(),t("div")}const f=e(n,[["render",d]]);export{m as __pageData,f as default};
