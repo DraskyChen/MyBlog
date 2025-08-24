@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.D207NPw5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ai/NLP/index.md","filePath":"ai/NLP/index.md","lastUpdated":1756011999000}'),n={name:"ai/NLP/index.md"};function r(i,o,s,d,c,p){return a(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};
