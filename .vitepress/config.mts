@@ -119,13 +119,6 @@ const vitePressConfigWithSidebar = [
   },
   {
     documentRootPath: '/',
-    scanStartPath: 'backend/RDBMS',
-    basePath: '/backend/RDBMS/',
-    resolvePath: '/backend/RDBMS/',
-    // useTitleFromFileHeading: true
-  },
-  {
-    documentRootPath: '/',
     scanStartPath: 'backend/NoSQL',
     basePath: '/backend/NoSQL/',
     resolvePath: '/backend/NoSQL/',
