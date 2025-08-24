@@ -1,3 +1,4 @@
+import { link } from 'fs';
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 
@@ -51,8 +52,8 @@ const vitePressConfig = {
           {text: 'Python', link: '/backend/Python/index'},
         ]},
         {text: '数据库', items: [
-          {text: 'MySQL', link: '/backend/MySQL/index'},
-          {text: 'Redis', link: '/backend/Redis/index'},
+          {text: '关系型数据库 (RDBMS)', link: '/backend/RDBMS/index'},
+          {text: '非关系型数据库 (NoSQL)', link: '/backend/NoSQL/index'},
         ]},
         {text: '框架技术', items: [
           {text: 'SpringBoot', link: '/backend/SpringBoot/index'},
@@ -78,12 +79,13 @@ const vitePressConfig = {
         ]},
         {text: 'Awesome', link: '/ai/awesome'},
       ]},
-      { text: '其他', items: [
-        {text:'devtools', items: [
-          {text: 'Git', link: '/devtools/Git/index'},
-          {text: 'VSCode', link: '/devtools/VSCode/index'},
-          {text: 'Cursor', link: '/devtools/Cursor/index'},
-        ]}
+      { text: 'DevOps', items: [
+        {text:'devtools', link:'/devops/devtools/index'},
+        {text: 'Git', link: '/devops/Git/index'},
+        {text: 'CI/CD', link: '/devops/CI_CD/index'},
+        {text: 'container', link: '/devops/container/index'},
+        {text: '监控与日志', link: '/devops/mon&log/index'},
+        {text: 'Web 服务器/反向代理', link: '/devops/server/index'},
       ]},
       // { text: 'Examples', link: '/Examples/markdown-examples' }
     ],
@@ -106,6 +108,27 @@ const vitePressConfigWithSidebar = [
     scanStartPath: 'backend/Python',
     basePath: '/backend/Python/',
     resolvePath: '/backend/Python/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'backend/Java',
+    basePath: '/backend/Java/',
+    resolvePath: '/backend/Java/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'backend/RDBMS',
+    basePath: '/backend/RDBMS/',
+    resolvePath: '/backend/RDBMS/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'backend/NoSQL',
+    basePath: '/backend/NoSQL/',
+    resolvePath: '/backend/NoSQL/',
     // useTitleFromFileHeading: true
   },
   {
@@ -155,6 +178,27 @@ const vitePressConfigWithSidebar = [
     scanStartPath: 'ai/LLM/Agent',
     basePath: '/ai/LLM/Agent/',
     resolvePath: '/ai/LLM/Agent/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'devops/Git',
+    basePath: '/devops/Git/',
+    resolvePath: '/devops/Git/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'devops/CI_CD',
+    basePath: '/devops/CI_CD/',
+    resolvePath: '/devops/CI_CD/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'devops/server',
+    basePath: '/devops/server/',
+    resolvePath: '/devops/server/',
     // useTitleFromFileHeading: true
   },
   {
