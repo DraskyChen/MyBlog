@@ -1,0 +1,9 @@
+import{_ as n,c as s,o as p,ag as e}from"./chunks/framework.C2Gjomh7.js";const u=JSON.parse('{"title":"预备知识","description":"","frontmatter":{},"headers":[],"relativePath":"ai/DeepLearning/预备知识/index.md","filePath":"ai/DeepLearning/预备知识/index.md","lastUpdated":1756829839000}'),i={name:"ai/DeepLearning/预备知识/index.md"};function t(l,a,c,o,r,d){return p(),s("div",null,[...a[0]||(a[0]=[e(`<h1 id="预备知识" tabindex="-1">预备知识 <a class="header-anchor" href="#预备知识" aria-label="Permalink to &quot;预备知识&quot;">​</a></h1><p>🏷️<code>chap_preliminaries</code></p><p>要学习深度学习，首先需要先掌握一些基本技能。 所有机器学习方法都涉及从数据中提取信息。 因此，我们先学习一些关于数据的实用技能，包括存储、操作和预处理数据。</p><p>机器学习通常需要处理大型数据集。 我们可以将某些数据集视为一个表，其中表的行对应样本，列对应属性。 线性代数为人们提供了一些用来处理表格数据的方法。 我们不会太深究细节，而是将重点放在矩阵运算的基本原理及其实现上。</p><p>深度学习是关于优化的学习。 对于一个带有参数的模型，我们想要找到其中能拟合数据的最好模型。 在算法的每个步骤中，决定以何种方式调整参数需要一点微积分知识。 本章将简要介绍这些知识。 幸运的是，<code>autograd</code>包会自动计算微分，本章也将介绍它。</p><p>机器学习还涉及如何做出预测：给定观察到的信息，某些未知属性可能的值是多少？ 要在不确定的情况下进行严格的推断，我们需要借用概率语言。</p><p>最后，官方文档提供了本书之外的大量描述和示例。 在本章的结尾，我们将展示如何在官方文档中查找所需信息。</p><p>本书对读者数学基础无过分要求，只要可以正确理解深度学习所需的数学知识即可。 但这并不意味着本书中不涉及数学方面的内容，本章会快速介绍一些基本且常用的数学知识， 以便读者能够理解书中的大部分数学内容。 如果读者想要深入理解全部数学内容，可以进一步学习本书数学附录中给出的数学基础知识。</p><div class="language-toc vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">toc</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>:maxdepth: 2</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>ndarray</span></span>
+<span class="line"><span>pandas</span></span>
+<span class="line"><span>linear-algebra</span></span>
+<span class="line"><span>calculus</span></span>
+<span class="line"><span>autograd</span></span>
+<span class="line"><span>probability</span></span>
+<span class="line"><span>lookup-api</span></span></code></pre></div>`,9)])])}const h=n(i,[["render",t]]);export{u as __pageData,h as default};
