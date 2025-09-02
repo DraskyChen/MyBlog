@@ -1,5 +1,10 @@
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
+import mathjax3 from 'markdown-it-mathjax3'
+
+const customElements = [
+'math', 'maction', 'maligngroup', 'malignmark', 'menclose', 'merror', 'mfenced', 'mfrac', 'mi', 'mlongdiv', 'mmultiscripts', 'mn', 'mo', 'mover', 'mpadded', 'mphantom', 'mroot', 'mrow', 'ms', 'mscarries', 'mscarry', 'mscarries', 'msgroup', 'mstack', 'mlongdiv', 'msline', 'mstack', 'mspace', 'msqrt', 'msrow', 'mstack', 'mstack', 'mstyle', 'msub', 'msup', 'msubsup', 'mtable', 'mtd', 'mtext', 'mtr', 'munder', 'munderover', 'semantics', 'math', 'mi', 'mn', 'mo', 'ms', 'mspace', 'mtext', 'menclose', 'merror', 'mfenced', 'mfrac', 'mpadded', 'mphantom', 'mroot', 'mrow', 'msqrt', 'mstyle', 'mmultiscripts', 'mover', 'mprescripts', 'msub', 'msubsup', 'msup', 'munder', 'munderover', 'none', 'maligngroup', 'malignmark', 'mtable', 'mtd', 'mtr', 'mlongdiv', 'mscarries', 'mscarry', 'msgroup', 'msline', 'msrow', 'mstack', 'maction', 'semantics', 'annotation', 'annotation-xml', 'mjx-container', 'mjx-assistive-mml'
+]
 
 const vitePressConfig = {
   head: [[
@@ -18,10 +23,23 @@ const vitePressConfig = {
       gtag('js', new Date());
       gtag('config', 'G-5R3J1LLHED');
       `
-  ], ['link', { rel: 'icon', href: './IronMan.svg' }, '']],
+  ], 
+  ['link', { rel: 'icon', href: './IronMan.svg' }, '']],
   base: '/MyBlog/',
   title: "Drasky's Blog",
   description: "A VitePress Site",
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3)
+    }
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => customElements.includes(tag) 
+      }
+    }
+  },
   locales: {
     'root': {
       label: '简体中文',
@@ -95,10 +113,10 @@ const vitePressConfig = {
         {text: 'Awesome', link: '/ai/awesome'},
       ]},
       { text: 'DevOps', items: [
-        {text:'devtools', link:'/devops/devtools/index'},
+        {text:'开发工具', link:'/devops/devtools/index'},
         {text: 'Git', link: '/devops/Git/index'},
         {text: 'CI/CD', link: '/devops/CI_CD/index'},
-        {text: 'container', link: '/devops/container/index'},
+        {text: '容器化', link: '/devops/container/index'},
         {text: '监控与日志', link: '/devops/mon&log/index'},
         {text: 'Web 服务器/反向代理', link: '/devops/server/index'},
       ]},
@@ -182,6 +200,13 @@ const vitePressConfigWithSidebar = [
   },
   {
     documentRootPath: '/',
+    scanStartPath: 'ai/DeepLearning',
+    basePath: '/ai/DeepLearning/',
+    resolvePath: '/ai/DeepLearning/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
     scanStartPath: 'ai/LLM/Agent',
     basePath: '/ai/LLM/Agent/',
     resolvePath: '/ai/LLM/Agent/',
@@ -206,6 +231,13 @@ const vitePressConfigWithSidebar = [
     scanStartPath: 'devops/server',
     basePath: '/devops/server/',
     resolvePath: '/devops/server/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'devops/container',
+    basePath: '/devops/container/',
+    resolvePath: '/devops/container/',
     // useTitleFromFileHeading: true
   },
   {
