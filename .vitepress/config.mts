@@ -7,6 +7,9 @@ const customElements = [
 ]
 
 const vitePressConfig = {
+  vite: {
+    assetsInclude: ['**/*.wmf']
+  },
   head: [[
     'script',
     {
