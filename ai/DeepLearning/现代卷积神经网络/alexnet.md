@@ -1,3 +1,10 @@
+---
+title: 深度卷积神经网络（AlexNet）
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代卷积神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 深度卷积神经网络（AlexNet）
 :label:`sec_alexnet`
 

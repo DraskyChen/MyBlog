@@ -1,3 +1,10 @@
+---
+title: 卷积神经网络（LeNet）
+date: 2025-09-02
+categories: [ai, DeepLearning, 卷积神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 卷积神经网络（LeNet）
 :label:`sec_lenet`
 

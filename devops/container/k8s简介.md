@@ -1,3 +1,10 @@
+---
+title: Kubernetes 学习笔记
+date: 2025-09-02
+categories: [devops, container]
+tags: [DevOps, 容器, container]
+---
+
 # Kubernetes 学习笔记
 
 ## 1. 什么是 Kubernetes？

@@ -1,3 +1,10 @@
+---
+title: 斯坦福大学 2014 机器学习教程中文笔记目录
+date: 2025-03-16
+categories: [ai, MachineLearning]
+tags: [AI, 机器学习, MachineLearning]
+---
+
 # 斯坦福大学 2014 机器学习教程中文笔记目录
 
 * [一、引言 (Introduction)](./1.引言、单变量线性回归、线性代数.md)
@@ -150,7 +157,7 @@
   * 16.5 向量化：低秩矩阵分解
   * 16.6 推行工作上的细节：均值归一化
 
-* [十七、大规模机器学习 (Large Scale Machine Learning)](./X.大规模机器学习、Photo%20OCR、总结.md)
+* [十七、大规模机器学习 (Large Scale Machine Learning)](./X.大规模机器学习、Photo OCR、总结.md)
 
   * 17.1 大型数据集的学习
   * 17.2 随机梯度下降法
@@ -159,13 +166,13 @@
   * 17.5 在线学习
   * 17.6 映射化简和数据并行
 
-* [十八、应用实例：图片文字识别 (Application Example: Photo OCR)](./X.大规模机器学习、Photo%20OCR、总结.md)
+* [十八、应用实例：图片文字识别 (Application Example: Photo OCR)](./X.大规模机器学习、Photo OCR、总结.md)
 
   * 18.1 问题描述和流程图
   * 18.2 滑动窗口
   * 18.3 获取大量数据和人工数据
   * 18.4 上限分析
 
-* [十九、总结 (Conclusion)](./X.大规模机器学习、Photo%20OCR、总结.md)
+* [十九、总结 (Conclusion)](./X.大规模机器学习、Photo OCR、总结.md)
 
   * 19.1 总结和致谢

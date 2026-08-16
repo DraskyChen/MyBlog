@@ -1,3 +1,10 @@
+---
+title: 深入 GitHub Actions：核心机制深入解读与实战示例
+date: 2025-08-24
+categories: [devops, CI_CD]
+tags: [DevOps, CI/CD, CI_CD]
+---
+
 # 深入 GitHub Actions：核心机制深入解读与实战示例
 
 ## 一、核心概念深入解构

@@ -1,3 +1,10 @@
+---
+title: TypeScript 学习笔记
+date: 2025-08-11
+categories: [frontend, TypeScript]
+tags: [前端, TypeScript]
+---
+
 # TypeScript 学习笔记
 
 ## 1. 类型声明

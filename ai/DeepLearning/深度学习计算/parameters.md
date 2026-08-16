@@ -1,3 +1,10 @@
+---
+title: 参数管理
+date: 2025-09-02
+categories: [ai, DeepLearning, 深度学习计算]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 参数管理
 
 在选择了架构并设置了超参数后，我们就进入了训练阶段。

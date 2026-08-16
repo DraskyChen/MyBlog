@@ -1,3 +1,10 @@
+---
+title: 数据预处理
+date: 2025-09-02
+categories: [ai, DeepLearning, 预备知识]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 数据预处理
 :label:`sec_pandas`
 

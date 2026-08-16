@@ -1,3 +1,10 @@
+---
+title: 编码器-解码器架构
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代循环神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 编码器-解码器架构
 :label:`sec_encoder-decoder`
 

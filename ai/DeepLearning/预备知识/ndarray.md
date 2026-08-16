@@ -1,3 +1,10 @@
+---
+title: 数据操作
+date: 2025-09-02
+categories: [ai, DeepLearning, 预备知识]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 数据操作
 :label:`sec_ndarray`
 

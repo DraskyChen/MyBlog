@@ -1,3 +1,10 @@
+---
+title: 来自Transformers的双向编码器表示（BERT）
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：预训练]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 来自Transformers的双向编码器表示（BERT）
 :label:`sec_bert`
 

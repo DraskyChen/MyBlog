@@ -1,3 +1,10 @@
+---
+title: 小批量随机梯度下降
+date: 2025-09-02
+categories: [ai, DeepLearning, 优化算法]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 小批量随机梯度下降
 :label:`sec_minibatch_sgd`
 

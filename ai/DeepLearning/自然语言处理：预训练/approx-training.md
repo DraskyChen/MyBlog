@@ -1,3 +1,10 @@
+---
+title: 近似训练
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：预训练]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 近似训练
 :label:`sec_approx_train`
 

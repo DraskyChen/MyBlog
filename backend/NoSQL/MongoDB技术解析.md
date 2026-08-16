@@ -1,3 +1,10 @@
+---
+title: MongoDB 技术解析：从单机到分布式的存储引擎与架构设计
+date: 2025-08-24
+categories: [backend, NoSQL]
+tags: [后端, NoSQL]
+---
+
 # MongoDB 技术解析：从单机到分布式的存储引擎与架构设计
 
 MongoDB 是目前最广泛使用的文档型 NoSQL 数据库之一。本文将从 **存储引擎** 到 **分布式架构**，系统梳理 MongoDB 的核心设计理念，并对比 MySQL 架构，帮助你更好地理解其设计思路。

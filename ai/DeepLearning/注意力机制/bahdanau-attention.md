@@ -1,3 +1,10 @@
+---
+title: Bahdanau 注意力
+date: 2025-09-02
+categories: [ai, DeepLearning, 注意力机制]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # Bahdanau 注意力
 :label:`sec_seq2seq_attention`
 

@@ -1,3 +1,10 @@
+---
+title: 读写文件
+date: 2025-09-02
+categories: [ai, DeepLearning, 深度学习计算]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 读写文件
 
 到目前为止，我们讨论了如何处理数据，

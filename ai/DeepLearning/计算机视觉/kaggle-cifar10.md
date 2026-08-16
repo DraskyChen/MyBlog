@@ -1,3 +1,10 @@
+---
+title: 实战 Kaggle 比赛：图像分类 (CIFAR-10)
+date: 2025-09-02
+categories: [ai, DeepLearning, 计算机视觉]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 实战 Kaggle 比赛：图像分类 (CIFAR-10)
 :label:`sec_kaggle_cifar10`
 

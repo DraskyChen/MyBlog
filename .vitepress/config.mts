@@ -1,9 +1,20 @@
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 import mathjax3 from 'markdown-it-mathjax3'
+import d2lPlugin from './plugins/markdown-it-d2l.ts'
 
 const customElements = [
-'math', 'maction', 'maligngroup', 'malignmark', 'menclose', 'merror', 'mfenced', 'mfrac', 'mi', 'mlongdiv', 'mmultiscripts', 'mn', 'mo', 'mover', 'mpadded', 'mphantom', 'mroot', 'mrow', 'ms', 'mscarries', 'mscarry', 'mscarries', 'msgroup', 'mstack', 'mlongdiv', 'msline', 'mstack', 'mspace', 'msqrt', 'msrow', 'mstack', 'mstack', 'mstyle', 'msub', 'msup', 'msubsup', 'mtable', 'mtd', 'mtext', 'mtr', 'munder', 'munderover', 'semantics', 'math', 'mi', 'mn', 'mo', 'ms', 'mspace', 'mtext', 'menclose', 'merror', 'mfenced', 'mfrac', 'mpadded', 'mphantom', 'mroot', 'mrow', 'msqrt', 'mstyle', 'mmultiscripts', 'mover', 'mprescripts', 'msub', 'msubsup', 'msup', 'munder', 'munderover', 'none', 'maligngroup', 'malignmark', 'mtable', 'mtd', 'mtr', 'mlongdiv', 'mscarries', 'mscarry', 'msgroup', 'msline', 'msrow', 'mstack', 'maction', 'semantics', 'annotation', 'annotation-xml', 'mjx-container', 'mjx-assistive-mml'
+  'math', 'maction', 'maligngroup', 'malignmark',
+  'menclose', 'merror', 'mfenced', 'mfrac',
+  'mi', 'mlongdiv', 'mmultiscripts', 'mn',
+  'mo', 'mover', 'mpadded', 'mphantom',
+  'mroot', 'mrow', 'ms', 'mscarries',
+  'mscarry', 'msgroup', 'mstack', 'msline',
+  'mspace', 'msqrt', 'msrow', 'mstyle',
+  'msub', 'msup', 'msubsup', 'mtable',
+  'mtd', 'mtext', 'mtr', 'munder',
+  'munderover', 'semantics', 'mprescripts', 'none',
+  'annotation', 'annotation-xml', 'mjx-container', 'mjx-assistive-mml'
 ]
 
 const vitePressConfig = {
@@ -33,7 +44,7 @@ const vitePressConfig = {
   description: "A VitePress Site",
   markdown: {
     config: (md) => {
-      md.use(mathjax3)
+      md.use(mathjax3).use(d2lPlugin)
     }
   },
   vue: {
@@ -76,11 +87,6 @@ const vitePressConfig = {
           {text: 'Vue', link: '/frontend/Vue/index'},
           {text: 'React', link: '/frontend/React/index'},
         ]},
-        {text: '前端工程化', items: [
-          {text: 'Webpack', link: '/frontend/Webpack/index'},
-          {text: 'Vite', link: '/frontend/Vite/index'},
-        ]},
-        {text: 'Awesome', link: '/frontend/awesome'},
       ]},
       { text: '后端', items: [
         {text: '基础知识', items: [
@@ -92,10 +98,8 @@ const vitePressConfig = {
           {text: '非关系型数据库 (NoSQL)', link: '/backend/NoSQL/index'},
         ]},
         {text: '框架技术', items: [
-          {text: 'SpringBoot', link: '/backend/SpringBoot/index'},
-          {text: 'Django', link: '/backend/Django/index'},
+          {text: 'Spring Boot', link: '/backend/Java/SpringBoot'},
         ]},
-        {text: 'Awesome', link: '/backend/awesome'},
       ]},
       { text: 'AI', items: [
         {text: '基础知识', items: [
@@ -113,14 +117,11 @@ const vitePressConfig = {
         {text: 'LLM', items:[
           {text: 'Agent', link: '/ai/LLM/Agent/index'},
         ]},
-        {text: 'Awesome', link: '/ai/awesome'},
       ]},
       { text: 'DevOps', items: [
-        {text:'开发工具', link:'/devops/devtools/index'},
         {text: 'Git', link: '/devops/Git/index'},
         {text: 'CI/CD', link: '/devops/CI_CD/index'},
         {text: '容器化', link: '/devops/container/index'},
-        {text: '监控与日志', link: '/devops/mon&log/index'},
         {text: 'Web 服务器/反向代理', link: '/devops/server/index'},
       ]},
       // { text: 'Examples', link: '/Examples/markdown-examples' }
@@ -161,6 +162,20 @@ const vitePressConfigWithSidebar = [
   },
   {
     documentRootPath: '/',
+    scanStartPath: 'backend/RDBMS',
+    basePath: '/backend/RDBMS/',
+    resolvePath: '/backend/RDBMS/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'backend/MQ',
+    basePath: '/backend/MQ/',
+    resolvePath: '/backend/MQ/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
     scanStartPath: 'frontend/HTML',
     basePath: '/frontend/HTML/',
     resolvePath: '/frontend/HTML/',
@@ -196,6 +211,13 @@ const vitePressConfigWithSidebar = [
   },
   {
     documentRootPath: '/',
+    scanStartPath: 'frontend/React',
+    basePath: '/frontend/React/',
+    resolvePath: '/frontend/React/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
     scanStartPath: 'ai/MachineLearning',
     basePath: '/ai/MachineLearning/',
     resolvePath: '/ai/MachineLearning/',
@@ -206,6 +228,8 @@ const vitePressConfigWithSidebar = [
     scanStartPath: 'ai/DeepLearning',
     basePath: '/ai/DeepLearning/',
     resolvePath: '/ai/DeepLearning/',
+    collapsed: true,
+    useFolderLinkFromIndexFile: true,
     // useTitleFromFileHeading: true
   },
   {
@@ -213,6 +237,34 @@ const vitePressConfigWithSidebar = [
     scanStartPath: 'ai/LLM/Agent',
     basePath: '/ai/LLM/Agent/',
     resolvePath: '/ai/LLM/Agent/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'ai/NLP',
+    basePath: '/ai/NLP/',
+    resolvePath: '/ai/NLP/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'ai/CV',
+    basePath: '/ai/CV/',
+    resolvePath: '/ai/CV/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'ai/PyTorch',
+    basePath: '/ai/PyTorch/',
+    resolvePath: '/ai/PyTorch/',
+    // useTitleFromFileHeading: true
+  },
+  {
+    documentRootPath: '/',
+    scanStartPath: 'ai/TensorFlow',
+    basePath: '/ai/TensorFlow/',
+    resolvePath: '/ai/TensorFlow/',
     // useTitleFromFileHeading: true
   },
   {
@@ -241,13 +293,6 @@ const vitePressConfigWithSidebar = [
     scanStartPath: 'devops/container',
     basePath: '/devops/container/',
     resolvePath: '/devops/container/',
-    // useTitleFromFileHeading: true
-  },
-  {
-    documentRootPath: '/',
-    scanStartPath: 'Examples',
-    basePath: '/Examples/',
-    resolvePath: '/Examples/',
     // useTitleFromFileHeading: true
   }
 ]

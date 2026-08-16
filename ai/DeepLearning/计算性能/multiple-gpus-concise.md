@@ -1,3 +1,10 @@
+---
+title: 多GPU的简洁实现
+date: 2025-09-02
+categories: [ai, DeepLearning, 计算性能]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 多GPU的简洁实现
 :label:`sec_multi_gpu_concise`
 

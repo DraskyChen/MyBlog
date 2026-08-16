@@ -1,3 +1,10 @@
+---
+title: 针对序列级和词元级应用微调BERT
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：应用]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 针对序列级和词元级应用微调BERT
 :label:`sec_finetuning-bert`
 

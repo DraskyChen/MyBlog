@@ -1,3 +1,10 @@
+---
+title: 查阅文档
+date: 2025-09-02
+categories: [ai, DeepLearning, 预备知识]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 查阅文档
 
 :begin_tab:`mxnet`

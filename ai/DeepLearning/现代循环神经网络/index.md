@@ -1,3 +1,10 @@
+---
+title: 现代循环神经网络
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代循环神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 现代循环神经网络
 :label:`chap_modern_rnn`
 

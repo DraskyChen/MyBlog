@@ -1,3 +1,10 @@
+---
+title: 含并行连结的网络（GoogLeNet）
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代卷积神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 含并行连结的网络（GoogLeNet）
 :label:`sec_googlenet`
 

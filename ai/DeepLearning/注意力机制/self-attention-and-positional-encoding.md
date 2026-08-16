@@ -1,3 +1,10 @@
+---
+title: 自注意力和位置编码
+date: 2025-09-02
+categories: [ai, DeepLearning, 注意力机制]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 自注意力和位置编码
 :label:`sec_self-attention-and-positional-encoding`
 

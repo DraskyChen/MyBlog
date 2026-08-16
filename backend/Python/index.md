@@ -1,3 +1,10 @@
+---
+title: Python语言介绍：为何它成为“万能胶水语言”？
+date: 2025-08-11
+categories: [backend, Python]
+tags: [后端, Python]
+---
+
 # 🐍 Python语言介绍：为何它成为“万能胶水语言”？
 
 > “红尘滚滚，我用 Python。”

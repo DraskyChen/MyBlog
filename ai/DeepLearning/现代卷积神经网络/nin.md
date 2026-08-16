@@ -1,3 +1,10 @@
+---
+title: 网络中的网络（NiN）
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代卷积神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 网络中的网络（NiN）
 :label:`sec_nin`
 

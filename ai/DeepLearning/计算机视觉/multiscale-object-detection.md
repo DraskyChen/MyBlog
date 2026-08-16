@@ -1,3 +1,10 @@
+---
+title: 多尺度目标检测
+date: 2025-09-02
+categories: [ai, DeepLearning, 计算机视觉]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 多尺度目标检测
 :label:`sec_multiscale-object-detection`
 

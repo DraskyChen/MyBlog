@@ -1,3 +1,10 @@
+---
+title: 语义分割和数据集
+date: 2025-09-02
+categories: [ai, DeepLearning, 计算机视觉]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 语义分割和数据集
 :label:`sec_semantic_segmentation`
 

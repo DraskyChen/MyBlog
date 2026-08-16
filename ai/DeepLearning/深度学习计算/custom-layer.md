@@ -1,3 +1,10 @@
+---
+title: 自定义层
+date: 2025-09-02
+categories: [ai, DeepLearning, 深度学习计算]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 自定义层
 
 深度学习成功背后的一个因素是神经网络的灵活性：

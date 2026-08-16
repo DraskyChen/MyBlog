@@ -1,3 +1,10 @@
+---
+title: 用于预训练BERT的数据集
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：预训练]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 用于预训练BERT的数据集
 :label:`sec_bert-dataset`
 

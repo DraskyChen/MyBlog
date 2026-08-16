@@ -1,3 +1,10 @@
+---
+title: 序列到序列学习（seq2seq）
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代循环神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 #  序列到序列学习（seq2seq）
 :label:`sec_seq2seq`
 

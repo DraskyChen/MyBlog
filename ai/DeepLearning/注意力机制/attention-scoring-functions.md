@@ -1,3 +1,10 @@
+---
+title: 注意力评分函数
+date: 2025-09-02
+categories: [ai, DeepLearning, 注意力机制]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 注意力评分函数
 :label:`sec_attention-scoring-functions`
 

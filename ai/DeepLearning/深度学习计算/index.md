@@ -1,3 +1,10 @@
+---
+title: 深度学习计算
+date: 2025-09-02
+categories: [ai, DeepLearning, 深度学习计算]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 深度学习计算
 :label:`chap_computation`
 

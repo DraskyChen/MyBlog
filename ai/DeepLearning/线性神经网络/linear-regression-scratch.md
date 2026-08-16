@@ -1,3 +1,10 @@
+---
+title: 线性回归的从零开始实现
+date: 2025-09-02
+categories: [ai, DeepLearning, 线性神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 线性回归的从零开始实现
 :label:`sec_linear_scratch`
 

@@ -1,3 +1,10 @@
+---
+title: 自动微分
+date: 2025-09-02
+categories: [ai, DeepLearning, 预备知识]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 自动微分
 :label:`sec_autograd`
 

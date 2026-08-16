@@ -1,3 +1,10 @@
+---
+title: 稠密连接网络（DenseNet）
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代卷积神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 稠密连接网络（DenseNet）
 
 ResNet极大地改变了如何参数化深层网络中函数的观点。

@@ -1,3 +1,10 @@
+---
+title: 多层感知机的简洁实现
+date: 2025-09-02
+categories: [ai, DeepLearning, 多层感知机]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 多层感知机的简洁实现
 :label:`sec_mlp_concise`
 

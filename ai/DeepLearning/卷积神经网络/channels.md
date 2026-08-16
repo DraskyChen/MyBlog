@@ -1,3 +1,10 @@
+---
+title: 多输入多输出通道
+date: 2025-09-02
+categories: [ai, DeepLearning, 卷积神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 多输入多输出通道
 :label:`sec_channels`
 

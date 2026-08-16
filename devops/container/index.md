@@ -1,3 +1,10 @@
+---
+title: 容器化与分布式集群
+date: 2025-09-02
+categories: [devops, container]
+tags: [DevOps, 容器, container]
+---
+
 # 容器化与分布式集群
 
 在现代软件开发与运维的浪潮中，**容器化 (Containerization)** 和 **分布式集群 (Distributed Clusters)** 已经成为构建、部署与管理应用的核心基石。  

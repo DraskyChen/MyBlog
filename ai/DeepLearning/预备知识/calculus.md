@@ -1,3 +1,10 @@
+---
+title: 微积分
+date: 2025-09-02
+categories: [ai, DeepLearning, 预备知识]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 微积分
 :label:`sec_calculus`
 

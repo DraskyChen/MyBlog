@@ -1,3 +1,10 @@
+---
+title: Nginx 技术博客
+date: 2025-08-24
+categories: [devops, server]
+tags: [DevOps, Nginx, server]
+---
+
 # Nginx 技术博客
 
 ## 一、Nginx 简介

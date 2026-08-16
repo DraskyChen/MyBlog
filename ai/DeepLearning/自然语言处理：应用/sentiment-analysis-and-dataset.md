@@ -1,3 +1,10 @@
+---
+title: 情感分析及数据集
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：应用]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 情感分析及数据集
 :label:`sec_sentiment`
 

@@ -1,3 +1,10 @@
+---
+title: 多头注意力
+date: 2025-09-02
+categories: [ai, DeepLearning, 注意力机制]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 多头注意力
 :label:`sec_multihead-attention`
 

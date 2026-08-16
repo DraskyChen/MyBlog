@@ -1,3 +1,10 @@
+---
+title: 全局向量的词嵌入（GloVe）
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：预训练]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 全局向量的词嵌入（GloVe）
 :label:`sec_glove`
 

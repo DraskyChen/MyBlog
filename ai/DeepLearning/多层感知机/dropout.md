@@ -1,3 +1,10 @@
+---
+title: 暂退法（Dropout）
+date: 2025-09-02
+categories: [ai, DeepLearning, 多层感知机]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 暂退法（Dropout）
 :label:`sec_dropout`
 

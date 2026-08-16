@@ -1,3 +1,10 @@
+---
+title: 实战Kaggle比赛：狗的品种识别（ImageNet Dogs）
+date: 2025-09-02
+categories: [ai, DeepLearning, 计算机视觉]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 实战Kaggle比赛：狗的品种识别（ImageNet Dogs）
 
 本节我们将在Kaggle上实战狗品种识别问题。

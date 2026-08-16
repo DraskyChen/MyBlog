@@ -137,3 +137,27 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+/**
+ * Component: d2l 框架代码块徽标
+ * -------------------------------------------------------------------------- */
+
+.d2l-tab {
+  position: relative;
+}
+
+.d2l-tab > .d2l-tab-label {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 0 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.8;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-brand-2);
+  font-family: var(--vp-font-family-mono);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}

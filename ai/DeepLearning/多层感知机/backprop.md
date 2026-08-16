@@ -1,3 +1,10 @@
+---
+title: 前向传播、反向传播和计算图
+date: 2025-09-02
+categories: [ai, DeepLearning, 多层感知机]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 前向传播、反向传播和计算图
 :label:`sec_backprop`
 

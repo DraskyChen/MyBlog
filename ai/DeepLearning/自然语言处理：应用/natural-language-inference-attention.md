@@ -1,3 +1,10 @@
+---
+title: 自然语言推断：使用注意力
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：应用]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 自然语言推断：使用注意力
 :label:`sec_natural-language-inference-attention`
 

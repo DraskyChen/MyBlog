@@ -1,3 +1,10 @@
+---
+title: 十七、大规模机器学习(Large Scale Machine Learning)
+date: 2025-09-02
+categories: [ai, MachineLearning]
+tags: [AI, 机器学习, MachineLearning]
+---
+
 第10周
 ======
 [TOC]

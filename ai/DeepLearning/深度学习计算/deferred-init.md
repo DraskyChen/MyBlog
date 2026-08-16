@@ -1,3 +1,10 @@
+---
+title: 延后初始化
+date: 2025-09-02
+categories: [ai, DeepLearning, 深度学习计算]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 延后初始化
 :label:`sec_deferred_init`
 

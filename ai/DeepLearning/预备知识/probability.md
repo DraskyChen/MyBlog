@@ -1,3 +1,10 @@
+---
+title: 概率
+date: 2025-09-02
+categories: [ai, DeepLearning, 预备知识]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 概率
 :label:`sec_prob`
 

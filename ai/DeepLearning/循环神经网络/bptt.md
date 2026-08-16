@@ -1,3 +1,10 @@
+---
+title: 通过时间反向传播
+date: 2025-09-02
+categories: [ai, DeepLearning, 循环神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 通过时间反向传播
 :label:`sec_bptt`
 

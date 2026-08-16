@@ -1,3 +1,10 @@
+---
+title: GPU
+date: 2025-09-02
+categories: [ai, DeepLearning, 深度学习计算]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # GPU
 :label:`sec_use_gpu`
 

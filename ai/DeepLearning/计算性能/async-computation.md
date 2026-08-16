@@ -1,3 +1,10 @@
+---
+title: 异步计算
+date: 2025-09-02
+categories: [ai, DeepLearning, 计算性能]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 异步计算
 :label:`sec_async`
 

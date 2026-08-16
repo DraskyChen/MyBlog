@@ -1,3 +1,10 @@
+---
+title: 词的相似性和类比任务
+date: 2025-09-02
+categories: [ai, DeepLearning, 自然语言处理：预训练]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 词的相似性和类比任务
 :label:`sec_synonyms`
 

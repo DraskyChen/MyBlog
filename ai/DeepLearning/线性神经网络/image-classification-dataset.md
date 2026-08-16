@@ -1,3 +1,10 @@
+---
+title: 图像分类数据集
+date: 2025-09-02
+categories: [ai, DeepLearning, 线性神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 图像分类数据集
 :label:`sec_fashion_mnist`
 

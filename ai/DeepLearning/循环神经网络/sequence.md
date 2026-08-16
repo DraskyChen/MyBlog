@@ -1,3 +1,10 @@
+---
+title: 序列模型
+date: 2025-09-02
+categories: [ai, DeepLearning, 循环神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 序列模型
 :label:`sec_sequence`
 

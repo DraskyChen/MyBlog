@@ -15,12 +15,13 @@ docs/.vitepress/cache/
 
 # VitePress 生成的临时文件
 *.log
-*.lock
 yarn.lock
 pnpm-lock.yaml
-package-lock.json
 
 # macOS 和编辑器相关文件（可选）
 .DS_Store
 .vscode/
 .idea/
+
+# 本地开发配置
+.claude/

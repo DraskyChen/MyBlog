@@ -1,3 +1,10 @@
+---
+title: 语言模型和数据集
+date: 2025-09-02
+categories: [ai, DeepLearning, 循环神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 语言模型和数据集
 :label:`sec_language_model`
 

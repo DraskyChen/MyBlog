@@ -1,3 +1,10 @@
+---
+title: 批量规范化
+date: 2025-09-02
+categories: [ai, DeepLearning, 现代卷积神经网络]
+tags: [AI, 深度学习, d2l, DeepLearning]
+---
+
 # 批量规范化
 :label:`sec_batch_norm`
 

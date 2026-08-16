@@ -1,3 +1,10 @@
+---
+title: Vue.js 简介
+date: 2025-03-16
+categories: [frontend, Vue]
+tags: [前端, Vue]
+---
+
 # 🌿 Vue.js 简介
 
 [Vue.js](https://vuejs.org/) 是一款用于构建用户界面的 **渐进式 JavaScript 框架**，由尤雨溪（Evan You）创建并于 2014 年开源。Vue 专注于前端视图层的构建，拥有易学易用、灵活高效、生态完善等诸多优点，广泛应用于从个人项目到企业级应用的开发中。
